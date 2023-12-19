@@ -3,6 +3,7 @@
 
 # Docker Commands 
   docker build -t docker-nginx .
+  
   docker run -itd -p 9090:80 docker-nginx-container
 
 # Node Verison v16.20.2
